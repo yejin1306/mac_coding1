@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>mac</title>
+   <style>
+      @font-face {
+           font-family: 'a시월구일3';
+           src: url(./font/a시월구일3.ttf) format('truetype');
+       }
+      header,article,footer{
+         width: 1200px !important;
+         background: black;
+         color: white;
+         font-family: 'a시월구일3';
+
+         /* border : white 1px solid; */
+      }
+      header{
+         height: 380px !important;
+      }
+      header .title{
+         height: 65%;
+      }
+      header .title .logo{
+         width: 400px;
+         margin-top: 85px;
+         margin-bottom: 45px;
+      }
+      header .menu_list{
+         border-top: white 3px solid;
+         height: 35%;
+      }
+      header .menu_list ul{
+         list-style: none;
+         padding: 0px;
+      }
+      header .menu_list ul a{
+         text-decoration: none;
+         color: white;
+      }
+      header .menu_list ul li{
+         font-size: 25px;
+         width: 18%;
+         display: inline-block;
+      }
+      
+      #rule {
+         width: 100%;
+      }
+      .main{
+         height:800px;
+         display: inline-block;
+      }
+      .main_img {
+         width: 100%;
+         height: 80%;
+         float: left;
+         /*padding: 5%;*/
+
+         padding: 100px 30px 100px 5px;  
+      }
+      .box_title{
+         font-size: 25px;
+      }
+      .box_img {
+         width: 80%;
+         padding-top: 100px;
+         padding-bottom: 100px;
+      }
+
+      footer{
+         height: 380px !important;
+      }
+      footer .footer_box2{
+         background-color: #262525;
+         height: 75%;
+      }
+      footer .footer_box2 .info{
+         margin-top: 35px;
+         width: 24%;
+         display: inline-block;
+         vertical-align: top;
+      }
+      footer .footer_box2 .info .title{
+         font-size: 25px;
+         /*font-weight: bold;*/
+      }
+      footer .footer_box2 .info .content{
+         padding-top: 20px;
+      }
+      footer .footer_box2 .info .content div{
+         padding-top: 10px;
+         font-size: 15px;
+      }
+      footer .footer_box3{
+         height: 10%;
+      }   
+      footer .footer_box3 div{
+         color: gray;
+         margin-top: 36px;
+         width: 23%;
+         display: inline-block;
+         font-size: 15px;
+      }
+   </style>
+</head>
+<body>
+   <center>
+      <header>
+         <div class="title">
+            <a href="main.html">
+                <img src="./img/logo.png" class="logo">
+            </a>
+        </div>
+         <div class="menu_list">
+            <ul>
+               <a href="./mac/about.html">
+                  <li>ABOUT</li>
+               </a>
+               <a href="./mac/makeuo.html">
+                  <li>MAKE UP</li>
+               </a>
+               <a href="./mac/skincare.html">
+                  <li>SKIN CARE</li>
+               </a>
+               <a href="./mac/gifting.html">
+                  <li>GIFTING</li>
+               </a>
+               <a href="./mac/event.html">
+                  <li>EVENTS</li>
+               </a>
+            </ul>
+         </div>
+      </header>
+      <article>
+        <div>
+           <img id="rule" src="./img/mac1.PNG">
+        </div>
+        <div>
+           <div class="main">
+              <img class="main_img" src="./img/pf.PNG">
+           </div>
+           <div class="main">
+              <img  class="main_img" src="./img/ml.PNG">
+           </div>
+        </div>
+        <div class="box_title">
+           NEW PRODUCT
+        </div>
+        <div>
+           <img class="box_img" src="./img/np.jpg">
+        </div>
+        <div class="box_title">LIMMITED ADDITION</div>
+        <div>
+           <img class="box_img" src="./img/la.PNG">
+        </div> 
+        <div class="box_title">MUST HAVE  ITEM</div>
+           <img class="box_img" src="./img/bs.PNG">
+
+     </article>
+      <footer>
+         <div class="footer_box2">
+            <div class="info">
+               <div class="title">YOUR MAC STORE</div>
+               <div class="content">
+                  <div>FIND A SORE/EVENTS</div>
+                  <div>MAKEUP SURVICES</div>
+               </div>
+            </div>
+            <div class="info">
+               <div class="title">CUSTOMER SERVICE</div>
+               <div class="content">
+                  <div>CONTACT US</div>
+                  <div>SHOPPING INFO</div>
+                  <div>OFFER DETAILS</div>
+                  <div>ORDERINF ONLINE</div>
+               </div>
+            </div>
+            <div class="info">
+               <div class="title">GIFT CARDS</div>
+               <div class="content">
+                  <div>GIFT CARDS</div>
+                  <div>ABOUT GIFT CARDS</div>
+                  <div>CHECK BALANCE</div>
+               </div>
+            </div>
+            <div class="info">
+               <div class="title">YOUR ACCOUNT</div>
+               <div class="content">
+                  <div>MY  M•A•C</div>
+                  <div>ORDER STATUS</div>
+                  <div>MY FAVORITES</div>
+               </div>
+            </div>
+         </div>
+         <div class="footer_box3">
+            <div>PRIVACY POLICY</div>
+            <div>TERMS & CONDITIONS</div>
+            <div>SUPPLIER RELATIONS</div>
+            <div>© Make-Up Art Cosmetics.</div>
+         </div>
+      </footer>
+   </center>
+</body>
+</html>
